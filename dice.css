@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  background-color: black;
+
+}
+
+#bigbox {
+  width: 50%;
+  margin: 2em auto;
+  object-position: center;
+  /* border-bottom:ridge; */
+  /* border: 10px groove rgb(245, 243, 243); */
+  /* box-shadow: currentColor; */
+
+  border-radius: 1.2em;
+  background-color: black;
+}
+
+
+
+#container {
+  margin: 10em auto;
+  background-color: black;
+  /* border: 2px solid blue; */
+}
+
+.button-main {
+  width: 7em;
+  height: 7em;
+  background-color: #999;
+  background-image: linear-gradient(180deg, #CCC, #999);
+  border-top: 3px solid #CCC;
+  border-right: 3px solid #CCC;
+  border-left: 4px solid rgb(113, 112, 112);
+  border-bottom: 4px solid rgb(79, 79, 79);
+  border-radius: 1em;
+  /* float: auto 10px; */
+  margin: 3em auto;
+  text-decoration: none;
+  /* box-shadow:  -.1em .1em 0 #000,
+           -.2em .2em 0 #000,
+           -.3em .3em 0 #000,
+           -.4em .4em 0 #333,
+           -.5em .5em 0 #333,
+           -.6em .6em 0 #333,
+           -.7em .7em 0 #333,
+           -.9em .9em 0 #333,
+           -1em 1em 0 #333,
+           -1.1em 1.1em 0 #333,
+           -1.2em 1.2em 0 #333; */
+  /* transition: box-shadow 0.3s,
+           border-top 0.3s,
+           border-right 0.3s; */
+  /* transition: all 0.3s ease-in-out; */
+  /* transform: scale(1.2); */
+}
+
+.button-main:hover,
+.button-main:focus {
+  box-shadow: .1em -.1em 0 #333,
+    .2em -.2em 0 #333,
+    -.1em .1em 0 #333,
+    -.2em .2em 0 #333,
+    -.3em .3em 0 #333,
+    inset -.1em -.1em 2em #FFF,
+    -.1em -.1em 2em #666;
+  border-top: 3px solid #666;
+  border-right: 3px solid #666;
+  /* transform: rotate(360deg); */
+}
+
+.button-inside {
+  width: 5em;
+  height: 5em;
+  margin: 1em auto;
+  border-radius: .8em;
+  background-color: rgb(0, 170, 0);
+  /* background-color: #CCC; */
+  /* background-image: linear-gradient(45deg, #CCC, #999); */
+  box-shadow: inset -.15em .15em 0 #666,
+    inset .1em -.1em 0 #CCC;
+  cursor: pointer;
+  /* transition: background-color 0.02s ease-in-out; */
+}
+
+/*
+#dicein:hover {
+  transform: rotate(360deg);
+}
+*/
+
+#dicenum {
+
+  font-size: 54px;
+  /* transition: all 0.3s ease-in-out; */
+  padding: 10px 0px;
+
+}
+
+/*
+
+#dicenum:hover {
+  transform: rotate(360deg);
+
+}
+*/
+
+
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  color: white;
+  text-align: center;
+  /* line-height: 1.3em; */
+  margin: 0 auto;
+
+  /* text-shadow: -.01em .01em 0 #666,
+           -.02em .02em 0 #666,
+           -.03em .03em 0 #666,
+           -.04em .04em 0 #666,
+           -.05em .05em 0 #666,
+           -.06em .06em 0 #999,
+           -.07em .07em 0 #999,
+           -.08em .08em 0 #999,
+           -.09em .09em 0 #999,
+           -.1em .1em 0 #999,
+           -.11em .11em 0 #999; */
+}
+
+#owner {
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  font: size 35px;
+  /* border: 2px solid yellow; */
+}
+
+@-webkit-keyframes spin {
+
+  form {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(220deg);
+  }
+
+  /* 0%   {} */
+  /* 25%  {transform: rotate(50deg);} */
+  /* 50%  { transform: rotate(100deg);} */
+  /* 75%  {transform: rotate(150deg);} */
+  /* 100% {} */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(220deg);
+  }
+
+  /* 0%   {} */
+  /* 25%  {transform: rotate(50deg);} */
+  /* 50%  { transform: rotate(100deg);} */
+  /* 75%  {transform: rotate(150deg);} */
+  /* /* 100%  */
+}
