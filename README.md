@@ -1,7 +1,8 @@
 # Ludo Dice
-## ravisingh9302.github.io
 
 [This code is live in webhost ](https://freedice.000webhostapp.com)
+
+## *[Vist live page](https://ravisingh9302.github.io/dice/)*
 
 *Here this the dice which coded in HTML, CSS,JAVASCRIPT*
 
